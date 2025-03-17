@@ -1,0 +1,51 @@
+.player-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 7rem; /* Adjust as needed */
+    height: 70%; /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Aligns content to the bottom */
+    padding: 2px;
+    margin: auto;
+    background-color: #00c421; /* Background color */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    position: relative; /* Needed for absolute positioning of player-info */
+}
+
+.player-kit {
+    flex-grow: 1; /* Makes the kit image fill available space */
+    display: flex;
+    justify-content: center; /* Centers image horizontally */
+    align-items: center; /* Centers image vertically */
+    height: 70%; /* Adjust as needed */
+}
+
+.player-kit img {
+    height: 100%; /* Fit image to container height */
+    width: auto; /* Preserve aspect ratio */
+    object-fit: cover; /* Ensures image covers the container without distortion */
+}
+
+.player-info {
+    width: 100%; /* Occupies full width of player-card */
+    display: flex;
+    flex-direction: column; /* Stacks children vertically */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center;
+    padding: 1px 1px; /* Aligns children in the center */
+}
+
+.player-name {
+    font-weight: 400;
+    font-size: 0.9rem;
+    background-color: #f9f9f9;
+    line-height: 1; /* Adjusted for better readability */
+    padding: 2px 0; /* Added padding for spacing */
+    margin: 0; /* Removed margin to prevent shifting */
+    text-overflow: ellipsis; /* Cuts off text with ellipsis */
+    white-space: nowrap; /* Prevents text from wrapping */
+    overflow: hidden; /* Hides overflow text */
+    width: 100%; /* Ensures the name spans the entire width of player-info */
+}

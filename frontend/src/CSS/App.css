@@ -1,0 +1,88 @@
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85vh; /* Wysokość viewportu */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    top: 2rem;
+    position: relative;
+  }
+
+  .fade-slide-enter {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.fade-slide-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 500ms, transform 500ms;
+}
+
+.fade-slide-exit {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.fade-slide-exit-active {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 500ms, transform 500ms;
+}
+
+.pitch {
+    background-image: url('/public/pitch-default.dab51b01.svg');
+    background-size: cover;
+    max-height: 80%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 1210px;
+    width: 890px;
+    max-width: 80%;
+    font-size: 1rem;
+}
+
+.pitch-line {
+    height: 20%;
+    font-size: 0,5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    margin-bottom: 2rem;
+    padding: 0 5rem;
+}
+
+.pitch-line-goalkeepers {
+    padding: 0 10rem;
+}
+
+.pitch-line-forwards {
+    padding: 0 5rem;
+}
+
+.bench-line{
+    height: 20%;
+    width: 100%;
+    background-image: linear-gradient(transparent 10%, rgb(255, 255, 255));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+}
+
+.bench {
+    background-color: rgb(125, 252, 167);
+    border-radius: 10px 10px 0px 0px;
+    height: 100%;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+}
+
+.player {
+    min-height: 11.6rem;
+}

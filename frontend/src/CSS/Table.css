@@ -1,0 +1,72 @@
+.table-container {
+    background-color: #ffffff;
+}
+
+.page-container {
+    padding: 2rem;
+}
+
+.search-field {
+    width: 15%;
+    margin-bottom: 20px;
+}
+
+.sort-table-label .MuiTableSortLabel-icon {
+    margin-left: 0 !important;
+    margin-right: 0px !important;
+}
+
+.table .MuiTableContainer {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+.table-head {
+    background-color: #f1f1f1;
+}
+
+.table-row {
+    height: 1.8rem !important;
+}
+
+.table-cell {
+    padding: 0px !important;
+    border: 1px solid #ddd;
+    text-align: center !important;
+}
+
+.table-cell-name {
+    width: 9rem;
+    text-align: left !important;
+}
+
+.table-cell-team {
+    width: 4rem;
+}
+
+.table-cell-position {
+    width: 4rem;
+}
+
+.table-cell-total-points {
+    width: 7rem;
+}
+
+.pagination-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.pagination-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.pagination-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}

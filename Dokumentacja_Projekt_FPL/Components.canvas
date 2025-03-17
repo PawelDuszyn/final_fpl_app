@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"2d98f8b0dfb80316","x":-600,"y":-380,"width":1000,"height":870,"type":"group","label":"Untitled group"},
+		{"id":"3914001ac050a3c1","type":"text","text":"**App**","x":-269,"y":-600,"width":345,"height":100,"color":"5"},
+		{"id":"64ff0e6107d83cd8","type":"text","text":"Player\n","x":-547,"y":390,"width":110,"height":60},
+		{"id":"9568496e2a13b5a9","type":"text","text":"Player\n","x":-422,"y":390,"width":110,"height":60},
+		{"id":"9227972f6f8043fd","type":"text","text":"Player\n","x":-297,"y":390,"width":110,"height":60},
+		{"id":"3e64fb8a516d3f7d","type":"text","text":"Table","x":-80,"y":390,"width":250,"height":60},
+		{"id":"60dd98c4752a675b","type":"text","text":"Welcome.jsx","x":-242,"y":-360,"width":250,"height":60},
+		{"id":"65cd7cfb18a083e6","type":"text","text":"Login","x":-242,"y":-150,"width":250,"height":60},
+		{"id":"00af960d78a33362","type":"text","text":"MyTeam:\n","x":-492,"y":280,"width":250,"height":60},
+		{"id":"356bb096596e3f5e","type":"text","text":"Stats","x":-80,"y":280,"width":250,"height":60},
+		{"id":"3933738284105a11","type":"text","text":"TeamID\n","x":-400,"y":-30,"width":250,"height":60},
+		{"id":"ba961b960bdd0025","type":"text","text":"Menu","x":-242,"y":110,"width":250,"height":60},
+		{"id":"98dc3f3160c5af52","type":"text","text":"Register","x":-400,"y":-250,"width":250,"height":50}
+	],
+	"edges":[
+		{"id":"2397651f7ddcb2ab","fromNode":"60dd98c4752a675b","fromSide":"bottom","toNode":"65cd7cfb18a083e6","toSide":"top"},
+		{"id":"3685333c0c61bf3d","fromNode":"60dd98c4752a675b","fromSide":"bottom","toNode":"98dc3f3160c5af52","toSide":"top"},
+		{"id":"bc00251141b9a4c3","fromNode":"65cd7cfb18a083e6","fromSide":"bottom","toNode":"3933738284105a11","toSide":"top"},
+		{"id":"622c863b092be963","fromNode":"98dc3f3160c5af52","fromSide":"bottom","toNode":"65cd7cfb18a083e6","toSide":"top"},
+		{"id":"6064662f01f6d5ea","fromNode":"3933738284105a11","fromSide":"bottom","toNode":"ba961b960bdd0025","toSide":"top"},
+		{"id":"12a607caad401d62","fromNode":"65cd7cfb18a083e6","fromSide":"bottom","toNode":"ba961b960bdd0025","toSide":"top"},
+		{"id":"cc762be37e6d26b4","fromNode":"ba961b960bdd0025","fromSide":"bottom","toNode":"356bb096596e3f5e","toSide":"top"},
+		{"id":"05aac8e5708969ae","fromNode":"ba961b960bdd0025","fromSide":"bottom","toNode":"00af960d78a33362","toSide":"top"},
+		{"id":"8cb6788fbfb28df4","fromNode":"00af960d78a33362","fromSide":"bottom","toNode":"64ff0e6107d83cd8","toSide":"top"},
+		{"id":"d83f4c5511c8e34c","fromNode":"00af960d78a33362","fromSide":"bottom","toNode":"9568496e2a13b5a9","toSide":"top"},
+		{"id":"9c9cc3bd411e8176","fromNode":"00af960d78a33362","fromSide":"bottom","toNode":"9227972f6f8043fd","toSide":"top"},
+		{"id":"4ee734334cf60b4b","fromNode":"356bb096596e3f5e","fromSide":"bottom","toNode":"3e64fb8a516d3f7d","toSide":"top"},
+		{"id":"246bdf50340212b0","fromNode":"3914001ac050a3c1","fromSide":"bottom","toNode":"2d98f8b0dfb80316","toSide":"top"},
+		{"id":"b6a86edb1f30e87b","fromNode":"ba961b960bdd0025","fromSide":"right","toNode":"60dd98c4752a675b","toSide":"right"}
+	]
+}
