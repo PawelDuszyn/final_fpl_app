@@ -11,3 +11,4 @@ logs/
 # Ignorowanie plików build
 build/
 dist/
+package-lock.json
